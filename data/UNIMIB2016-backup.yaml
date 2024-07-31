@@ -1,0 +1,29 @@
+# UNIMIB2016 dataset http://www.ivl.disco.unimib.it/activities/food-recognition/ (1027 available photos)
+# parent
+# ├── yolov5
+# └── datasets
+#     └── UNIMIB2016  ← downloads here
+
+
+path: ../datasets/UNIMIB2016  # dataset root dir
+train: train.txt  # train images (relative to 'path') 703 images
+val: test.txt  # val images (relative to 'path') 302 images
+test: test.txt # test images (optional) 302 images
+
+# Classes
+nc: 72  # number of classes
+names: ['pane', 'mandarini', 'carote', 'cotoletta', 'patate/pure', 'yogurt', 'fagiolini', 'budino', 'spinaci',
+        'scaloppine', 'pizza', 'pasta_sugo_vegetariano', 'mele', 'pasta_pesto_besciamella_e_cornetti', 'arancia',
+        'lasagna_alla_bolognese', 'zucchine_umido', 'pasta_sugo_pesce', 'patatine_fritte', 'arrosto',
+        'pasta_cozze_e_vongole', 'riso_bianco', 'torta_salata_spinaci_e_ricotta', 'pasta_zafferano_e_piselli',
+        'medaglioni_di_carne', 'patate/pure_prosciutto', 'insalata_mista', 'torta_salata_rustica_(zucchine)',
+        'pasta_mare_e_monti', 'polpette_di_carne', 'pasta_pancetta_e_zucchine', 'pizzoccheri',
+        'pasta_ricotta_e_salsiccia', 'finocchi_gratinati', 'orecchiette_(ragu)', 'pere', 'pasta_tonno',
+        'pasta_tonno_e_piselli', 'riso_sugo', 'piselli', 'torta_salata_3', 'torta_salata_(alla_valdostana)', 'banane',
+        'salmone_(da_menu_sembra_spada_in_realta)', 'guazzetto_di_calamari', 'pesce_2_(filetto)', 'pasta_sugo',
+        'bruscitt', 'arrosto_di_vitello', 'pasta_e_fagioli', 'finocchi_in_umido', 'minestra_lombarda',
+        'stinco_di_maiale', 'pasta_bianco', 'cavolfiore', 'merluzzo_alle_olive', 'zucchine_impanate', 'pesce_(filetto)',
+        'torta_crema_2', 'cibo_bianco_non_identificato', 'rosbeef', 'roastbeef', 'torta_crema',
+        'passato_alla_piemontese', 'pasta_e_ceci', 'minestra', 'focaccia_bianca', 'crema_zucca_e_fagioli',
+        'torta_cioccolato_e_pere', 'torta_ananas', 'rucola', 'strudel']  # class names
+
